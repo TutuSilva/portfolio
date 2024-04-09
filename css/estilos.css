@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+:root {
+  --fonte--principal: "Tilt Neon", sans-serif;
+
+  --tamanho--fonte--cabecalho: 1.2rem;
+  --peso--fonte--cabecalho: 500;
+
+  --cor--texto--padrao:#f6f6f6;
+  --cor--background: #23263A;
+}
+body{
+    font-family: var(--fonte--principal);
+    background-color: var(--cor--background);
+}
+.navegacao__links{
+    text-decoration: none;
+    color: var(--cor--texto--padrao);
+    font-size: var(--tamanho--fonte--cabecalho);
+    font-weight: var(--peso--fonte--cabecalho);
+}
