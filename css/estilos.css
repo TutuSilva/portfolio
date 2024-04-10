@@ -14,9 +14,15 @@ body{
     font-family: var(--fonte--principal);
     background-color: var(--cor--background);
 }
+/* cabecalho */
 .navegacao__links{
     text-decoration: none;
     color: var(--cor--texto--padrao);
     font-size: var(--tamanho--fonte--cabecalho);
     font-weight: var(--peso--fonte--cabecalho);
+}
+.navegacao__links:hover{
+  text-decoration: underline;
+  font-size: 130%;
+  transition: 0.2s;
 }
