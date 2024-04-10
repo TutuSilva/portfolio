@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.938rem
+  padding: 0.938rem;
 }
 .navegacao__items:nth-child(2),
 .navegacao__items:nth-child(3),
@@ -12,6 +12,14 @@
 .navegacao__items:nth-child(6) {
   display: none;
 }
+/* localizacao bolas vermelhas */
+.localizacao__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/*Telas Grandes*/
 @media (min-width: 1200px) {
   /* cabecalho */
   .cabecalho__container {
@@ -30,5 +38,28 @@
   .navegacao__items:nth-child(7) {
     display: flex;
     padding-right: 4.625rem;
+  }
+  /* apresentaçao*/
+  .apresentacao__container {
+    display: flex;
+    height: 30vh;
+  }
+  .apresentacao__textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* localizacao bolas vermelhas */
+  .localizacao__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  .linha {
+    width: 1px;
+    height: 30%;
+    background-color: white;
   }
 }
