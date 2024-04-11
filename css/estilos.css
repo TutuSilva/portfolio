@@ -1,23 +1,28 @@
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Monsieur+La+Doulaise&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
 
 :root {
   --fonte--principal: "Tilt Neon", sans-serif;
+  --fonte--assinatura: "Monsieur La Doulaise", cursive;
+  --fonte--paragafos: "Karla", sans-serif;
 
-  --tamanho--fonte--cabecalho: 1.2rem;
-  --peso--fonte--cabecalho: 500;
-
+  --tamanho--fonte--cabecalho: 1.5rem;
   --tamanho--fonte--h1: 2.5rem;
-  --tamanho--fonte--h2: 1.3rem;
+  --tamanho--fonte--h2: 2rem;
+  --tamanho--fonte--p: 1.2rem;
+  --tamanho--fonte--assinatura: 3rem;
+
+  --peso--fonte--cabecalho: 500;
   --peso--fonte--h1: 600;
-  --peso--fonte--h2: 300;
+  --peso--fonte--p: 400;
 
   --cor--texto--padrao: #f6f6f6;
   --cor--texto--destaque: #ff4a57;
   --cor--background: #23263a;
 }
 body {
-  font-family: var(--fonte--principal);
   background-color: var(--cor--background);
 }
 /* cabecalho */
@@ -26,6 +31,7 @@ body {
   color: var(--cor--texto--padrao);
   font-size: var(--tamanho--fonte--cabecalho);
   font-weight: var(--peso--fonte--cabecalho);
+  font-family: var(--fonte--principal);
 }
 .navegacao__links:hover {
   text-decoration: underline;
@@ -40,18 +46,20 @@ body {
 .apresentacao__container {
   color: var(--cor--texto--padrao);
   padding: 3%;
+  font-family: var(--fonte--principal);
 }
 .apresentacao__titulo {
   font-size: var(--tamanho--fonte--h1);
   font-weight: var(--peso--fonte--h1);
 }
-.apresentacao__subtitulo {
-  font-size: var(--tamanho--fonte--h2);
-  font-weight: var(--peso--fonte--h2);
-  line-height: 135%;
+.apresentacao__paragrafo {
+  color: var(--cor--texto--padrao);
+  font-size: var(--tamanho--fonte--p);
+  font-weight: var(--peso--fonte--p);
+  font-family: var(--fonte--paragafos);
 }
 
-/* localizacao bolas vermelhas */
+/* bolas vermelhas */
 
 .bolinha {
   border-radius: 50%;
@@ -79,4 +87,23 @@ body {
   width: 30%;
   height: 1px;
   background-color: white;
+}
+
+/* sessao sobre mim */
+
+.sobremim__subtitulo {
+  font-family: var(--fonte--principal);
+  color: var(--cor--texto--padrao);
+  font-size: var(--tamanho--fonte--h2);
+}
+.sobremim__paragrafo {
+  color: var(--cor--texto--padrao);
+  font-size: var(--tamanho--fonte--p);
+  font-weight: var(--peso--fonte--p);
+  font-family: var(--fonte--paragafos);
+}
+.sobremim__assinatura {
+  color: var(--cor--texto--padrao);
+  font-family: var(--fonte--assinatura);
+  font-size: var(--tamanho--fonte--assinatura);
 }
