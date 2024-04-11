@@ -1,3 +1,7 @@
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
 /* cabecalho */
 .cabecalho__container {
   display: flex;
@@ -11,6 +15,10 @@
 .navegacao__items:nth-child(5),
 .navegacao__items:nth-child(6) {
   display: none;
+}
+/* apresentaçao*/
+.apresentacao__container {
+  padding: 3%;
 }
 
 /* localizacao bolas vermelhas */
@@ -32,6 +40,19 @@
 }
 .sobremim__assinatura {
   margin: 0;
+}
+
+/* sessao skills */
+.skills__container {
+  margin: 0;
+  text-align: center;
+}
+.skills__paragrafo{
+  margin: 0;
+}
+.skills__subtitulo {
+  margin: 0;
+  text-align: center;
 }
 
 /*Telas Grandes*/
@@ -59,8 +80,7 @@
     display: flex;
     width: 95vw;
     height: 40vh;
-    padding: 50px 0;
-    margin-left: 5%;
+    padding: 5% 0 0 5%;
     gap: 5%;
   }
   .apresentacao__textos {
@@ -85,13 +105,15 @@
     flex-direction: row;
     width: 95vw;
     height: 40vh;
-    padding: 0;
-    margin-left: 5%;
+    padding: 0 0 0 5%;
     gap: 5%;
   }
   .sobremim__textos {
     display: flex;
     width: 80%;
     flex-direction: column;
+  }
+  .sobremim__assinatura {
+    text-align: left;
   }
 }
