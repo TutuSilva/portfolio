@@ -110,6 +110,7 @@ body {
   text-align: center;
 }
 
+
 /* sessao skills */
 .skills__paragrafo {
   color: var(--cor--texto--padrao);
@@ -123,5 +124,16 @@ body {
 }
 .skills_subtitulo__destaque {
   text-decoration: none;
-  border-bottom: 4px solid var(--cor--texto--destaque); 
+  border-bottom: 4px solid var(--cor--texto--destaque);
+}
+.skills__logos__item {
+  background-color:#23263a;
+  border-radius: 2%;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.skills__logo__p{
+  color: var(--cor--texto--padrao);
+  font-family: var(--fonte--paragafos);
+  font-size: var(--tamanho--fonte--p);
 }
