@@ -42,14 +42,16 @@ body {
   margin: 0;
 }
 
-/* sessao skills */
-.skills__textos {
+/* sessao skills e hobbies */
+.skills__textos,
+.hobbies__subtitulo {
   text-align: center;
   padding: 0;
   margin: 0;
 }
 
-.skills__logos__container {
+.skills__logos__container,
+.hobbies__logos__container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -94,9 +96,9 @@ body {
   /* apresentaçao*/
   .apresentacao__container {
     display: flex;
-    width: 95vw;
     height: 40vh;
-    padding: 5% 0 0 5%;
+    padding: 0;
+    justify-content: center;
     gap: 5%;
   }
   .apresentacao__textos {
@@ -110,6 +112,7 @@ body {
   .localizacao__container {
     flex-direction: column;
     width: 1%;
+    height: auto;
   }
   .linha {
     width: 1px;
@@ -119,9 +122,9 @@ body {
   /* Sessao Sobre mim*/
   .sobremim__container {
     flex-direction: row;
-    width: 95vw;
     height: 40vh;
-    padding: 0 0 0 5%;
+    padding: 0;
+    justify-content: center;
     gap: 5%;
   }
   .sobremim__textos {
@@ -133,32 +136,28 @@ body {
     text-align: left;
   }
 
-  /* sessao skills */
-  .skills__hobbies__container {
-    width: 90vw;
-    height: 80vh;
+  /* sessao skills e sessao hobbies */
+  .skills__container,
+  .hobbies__container {
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 0 0 5%;
-  }
-  .skills__textos {
-    display: flex;
-    width: 80%;
     flex-direction: column;
+    padding: 0 0 0 2%;
+    align-items: center;
+    width: 90%;
   }
-  .skills__logos__container {
+  .skills__textos,
+  .hobbies__subtitulo {
+  }
+  .skills__logos__container,
+  .hobbies__logos__container {
+    flex-wrap: nowrap;
     padding: 0;
-    justify-content: space-between;
-    width: 75vw;
+    margin: 0;
+    width: 90%;
   }
   .skills__logos__item {
-    height: 50%;
-    width: 10%;
+    padding: 0;
+    margin: 0;
     height: 20vh;
   }
-  .skills__logos__img {
-    width: 50%;
-    padding-top: 5%;
-  }
-
 }

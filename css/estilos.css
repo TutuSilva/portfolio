@@ -110,7 +110,6 @@ body {
   text-align: center;
 }
 
-
 /* sessao skills */
 .skills__subtitulo {
   color: var(--cor--texto--destaque);
@@ -122,13 +121,20 @@ body {
   border-bottom: 4px solid var(--cor--texto--destaque);
 }
 .skills__logos__item {
-  background-color:#23263a;
+  background-color: #23263a;
   border-radius: 2%;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.skills__logo__p{
+.skills__logo__p {
   color: var(--cor--texto--padrao);
   font-family: var(--fonte--paragafos);
   font-size: var(--tamanho--fonte--p);
+}
+
+/*sessao hobbies*/
+.hobbies__subtitulo {
+  color: var(--cor--texto--destaque);
+  font-size: var(--tamanho--fonte--h2);
+  font-family: var(--fonte--principal);
 }
