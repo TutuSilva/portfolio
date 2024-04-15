@@ -112,11 +112,6 @@ body {
 
 
 /* sessao skills */
-.skills__paragrafo {
-  color: var(--cor--texto--padrao);
-  font-family: var(--fonte--paragafos);
-  font-size: var(--tamanho--fonte--p);
-}
 .skills__subtitulo {
   color: var(--cor--texto--destaque);
   font-size: var(--tamanho--fonte--h2);
