@@ -138,3 +138,21 @@ body {
   font-size: var(--tamanho--fonte--h2);
   font-family: var(--fonte--principal);
 }
+
+/* sessao academica */
+
+.academica__subtitulo {
+  color: var(--cor--texto--destaque);
+  font-family: var(--fonte--principal);
+  font-size: var(--tamanho--fonte--h2);
+}
+.academica__paragrafo {
+  color: var(--cor--texto--padrao);
+  font-family: var(--fonte--paragafos);
+  font-size: var(--tamanho--fonte--p);
+}
+.academica__items {
+  background-color: #23263a;
+  border-radius: 2%;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
