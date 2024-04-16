@@ -38,7 +38,7 @@ body {
 }
 .navegacao__links:hover {
   text-decoration: underline;
-  font-size: 130%;
+  font-size: 170%;
   transition: 0.2s;
 }
 .navegacao__links__destaque {
@@ -114,6 +114,7 @@ body {
 /* sessao skills */
 .skillshobbies__container {
   background-color: var(--background--sessao);
+  box-shadow: inset 1px 1px 5px #000000;
 }
 .skills__subtitulo {
   color: var(--cor--texto--destaque);
@@ -129,7 +130,7 @@ body {
   border-radius: 2%;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
-.skills__logos__item:hover{
+.skills__logos__item:hover {
   background-color: var(--background--sessao);
 }
 .skills__logo__p {
@@ -163,6 +164,6 @@ body {
   border-radius: 2%;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
-.academica__items:hover{
+.academica__items:hover {
   background-color: var(--background--sessao);
 }
