@@ -43,6 +43,9 @@ body {
 }
 
 /* sessao skills e hobbies */
+.skillshobbies__container{
+  padding-bottom: 5%;
+}
 .skills__textos,
 .hobbies__subtitulo {
   text-align: center;
@@ -73,7 +76,7 @@ body {
 }
 
 /* sessao academica */
-.academica__container {
+.academica__textos {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,7 +132,6 @@ body {
   .localizacao__container {
     flex-direction: column;
     width: 1%;
-    height: auto;
   }
   .linha {
     width: 1px;
@@ -176,5 +178,30 @@ body {
     padding: 0;
     margin: 0;
     height: 20vh;
+  }
+  /* sessao academica */
+  .academica__container {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+  }
+  .academica__textos {
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .academica__subtitulo {
+    width: 100%;
+  }
+  .academica__items {
+    display: flex;
+    width: 30%;
+    height: 30vh;
+    justify-content: center;
+  }
+  .academica__img {
+    width: 30%;
   }
 }

@@ -23,6 +23,7 @@
   --cor--texto--padrao: #f6f6f6;
   --cor--texto--destaque: #ff4a57;
   --background-gradient: linear-gradient(#23263a, #0d1b2a);
+  --background--sessao: #171926;
 }
 body {
   background-image: var(--background-gradient);
@@ -111,6 +112,9 @@ body {
 }
 
 /* sessao skills */
+.skillshobbies__container {
+  background-color: var(--background--sessao);
+}
 .skills__subtitulo {
   color: var(--cor--texto--destaque);
   font-size: var(--tamanho--fonte--h2);
@@ -125,7 +129,9 @@ body {
   border-radius: 2%;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
-
+.skills__logos__item:hover{
+  background-color: var(--background--sessao);
+}
 .skills__logo__p {
   color: var(--cor--texto--padrao);
   font-family: var(--fonte--paragafos);
@@ -140,7 +146,8 @@ body {
 }
 
 /* sessao academica */
-
+.academica__container {
+}
 .academica__subtitulo {
   color: var(--cor--texto--destaque);
   font-family: var(--fonte--principal);
@@ -155,4 +162,7 @@ body {
   background-color: #23263a;
   border-radius: 2%;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.academica__items:hover{
+  background-color: var(--background--sessao);
 }
