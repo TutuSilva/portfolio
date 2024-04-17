@@ -198,7 +198,8 @@ body {
 .experiencia__descricao {
   color: var(--cor--texto--padrao);
   font-family: var(--fonte--paragafos);
-  font-size: var(--tamanho--fonte--p);
+  font-size: var(--tamanho--fonte--h2);
+  text-align: center;
 }
 .experiencia__img {
   width: 90%;

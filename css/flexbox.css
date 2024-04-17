@@ -197,6 +197,7 @@ body {
     display: flex;
     gap: 5%;
     justify-content: center;
+    padding-bottom: 1%;
   }
   .academica__textos {
     width: 80%;
@@ -218,17 +219,33 @@ body {
     width: 30%;
   }
   /*Sessao Experiencia*/
-
-.experiencia__items {
+  .experiencia__subtitulo {
+    text-align: center;
+    padding: 0 5% 0 0;
+  }
+  .experiencia__items {
     flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+  }
+  .experiencia__items.reverse {
+    flex-direction: row-reverse;
+  }
+  .experiencia__div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
     width: 50%;
- }
- .experiencia__div{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
- }
- .experiencia__botao{
-  width: 15vw;
- }
+  }
+  .experiencia__botao {
+    width: 15vw;
+  }
+  .experiencia__img {
+    width: 55%;
+    border-radius: 2% 0 0 2%;
+  }
+  .reverse__img {
+    border-radius: 0 2% 2% 0;
+  }
 }
