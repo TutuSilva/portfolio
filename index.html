@@ -13,27 +13,27 @@
 
     <header class="cabecalho__container">
       <nav class="navegacao__items">
-        <a class="navegacao__links" href="#"
+        <a class="navegacao__links" href="https://github.com/TutuSilva" target="_blank"
           >Tu<strong class="navegacao__links__destaque">ll</strong>io Silva</a
         >
       </nav>
       <nav class="navegacao__items">
-        <a class="navegacao__links" href="#">Sobre Mim</a>
+        <a class="navegacao__links" href="#sobremim__id">Sobre Mim</a>
       </nav>
       <nav class="navegacao__items">
-        <a class="navegacao__links" href="#">Skills</a>
+        <a class="navegacao__links" href="#skills__id">Skills</a>
       </nav>
       <nav class="navegacao__items">
-        <a class="navegacao__links" href="#">Hobbies</a>
+        <a class="navegacao__links" href="#hobbies__id">Hobbies</a>
       </nav>
       <nav class="navegacao__items">
-        <a class="navegacao__links" href="#">Formacão</a>
+        <a class="navegacao__links" href="#academica__id">Formacão</a>
       </nav>
       <nav class="navegacao__items">
-        <a class="navegacao__links" href="#">Projetos</a>
+        <a class="navegacao__links" href="#experiencia__id">Projetos</a>
       </nav>
       <nav class="navegacao__items">
-        <a class="navegacao__links" href="#">Contato</a>
+        <a class="navegacao__links" href="#contato__id">Contato</a>
       </nav>
     </header>
 
@@ -70,6 +70,7 @@
     </section>
 
     <!--Sessão Sobre mim-->
+
     <section class="sobremim__container" id="sobremim__id">
       <section class="sobremim__textos">
         <h2 class="sobremim__subtitulo">Sobre mim</h2>
@@ -105,8 +106,9 @@
     </section>
 
     <!--Sessao Skills-->
+
     <div class="skillshobbies__container">
-      <section class="skills__container">
+      <section class="skills__container" id="skills__id">
         <section class="skills__textos">
           <h2 class="skills__subtitulo">
             <strong class="skills_subtitulo__destaque">SKILL</strong>-SET
@@ -163,8 +165,10 @@
           </div>
         </section>
       </section>
+
       <!-- Sessao hobbies -->
-      <section class="hobbies__container">
+
+      <section class="hobbies__container" id="hobbies__id">
         <div class="hobbies__subtitulo">
           <h2>Hobbies</h2>
         </div>
@@ -220,7 +224,9 @@
         </section>
       </section>
     </div>
+
     <!--Sessao Academica-->
+
     <section class="academica__container" id="academica__id">
       <section class="academica__textos">
         <h2 class="academica__subtitulo">Formação Acadêmica</h2>
@@ -278,7 +284,8 @@
     </section>
 
     <!-- Sessao experiencia  -->
-    <section class="experiencia__container">
+
+    <section class="experiencia__container" id="experiencia__id">
       <h2 class="experiencia__subtitulo">Experiencia Profisional</h2>
       <section class="experiencia__items">
         <img
@@ -323,5 +330,40 @@
         </div>
       </section>
     </section>
+
+    <!--Sessao contatos-->
+
+    <section class="contatos__container" id="contato__id">
+      <section class="contatos__textos">
+        <h2 class="contatos__subtitulo">Contato</h2>
+        <p class="contatos__paragrafo">
+          Quer entrar em contato comigo? Preencha o formulario e entrarei em
+          contato o mais rapido possivel.
+        </p>
+      </section>
+      <div class="contatos__form">
+        <form>
+          <label for="name">Nome:</label>
+          <input type="text" required="" />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required="" />
+          <label for="assunto">Assunto: </label>
+          <input type="text" required="" id="assunto" name="assunto" />
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" required=""></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+      <img
+        class="contato__img"
+        src="media/logocontato/central-de-atendimento.png"
+        alt="imagem central de atendimento"
+      />
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <p>Made with &#9825; in Minas Gerais, Brazil.</p>
+    </footer>
   </body>
 </html>

@@ -105,7 +105,14 @@ body {
   justify-content: center;
   gap: 50px;
 }
-
+/* sessao contatos  */
+.contatos__form form {
+  display: flex;
+  flex-direction: column;
+}
+.contato__img {
+  display: none;
+}
 /*Telas Grandes*/
 @media (min-width: 1200px) {
   /* cabecalho */
@@ -247,5 +254,25 @@ body {
   }
   .reverse__img {
     border-radius: 0 2% 2% 0;
+  }
+
+  /* sessao contatos  */
+  .contatos__container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .contatos__textos {
+    width: 100%;
+    padding: 0 5% 0 0;
+  }
+  .contatos__form {
+    width: 35%;
+  }
+  .contato__img {
+    display: block;
   }
 }

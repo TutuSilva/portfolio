@@ -22,6 +22,7 @@
 
   --cor--texto--padrao: #f6f6f6;
   --cor--texto--destaque: #ff4a57;
+
   --background-gradient: linear-gradient(#23263a, #0d1b2a);
   --background--sessao: #171926;
 }
@@ -116,6 +117,7 @@ body {
   background-color: var(--background--sessao);
   box-shadow: inset 1px 1px 5px #000000;
 }
+
 .skills__subtitulo {
   color: var(--cor--texto--destaque);
   font-size: var(--tamanho--fonte--h2);
@@ -133,6 +135,7 @@ body {
 }
 .skills__logos__item:hover {
   background-color: var(--background--sessao);
+  transform: translateY(0.2rem);
 }
 .skills__logo__p {
   color: var(--cor--texto--padrao);
@@ -152,8 +155,6 @@ body {
 }
 
 /* sessao academica */
-.academica__container {
-}
 .academica__subtitulo {
   color: var(--cor--texto--destaque);
   font-family: var(--fonte--principal);
@@ -172,6 +173,7 @@ body {
 }
 .academica__items:hover {
   background-color: var(--background--sessao);
+  transform: translateY(0.2rem);
 }
 .academica__img {
   width: 60%;
@@ -210,12 +212,19 @@ body {
   height: 5vh;
   font-family: var(--fonte--paragafos);
   font-size: var(--tamanho--fonte--p);
+  cursor: pointer;
+}
+.experiencia__botao:active {
+  transform: translateY(0.2rem);
+  box-shadow: 0 0.2rem var(--cor--texto--padrao);
+  
 }
 .experiencia__botao:hover {
   box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
   font-size: 130%;
   text-shadow: 5px 5px 5px black;
   transition: 0.1s;
+  
 }
 
 .repo {
@@ -227,4 +236,76 @@ body {
   background-color: var(--cor--texto--destaque);
   color: var(--cor--texto--padrao);
   border-color: rgba(255, 0, 0, 0);
+}
+
+/* sessao contato  */
+.contatos__subtitulo {
+  color: var(--cor--texto--destaque);
+  font-size: var(--tamanho--fonte--h2);
+  font-family: var(--fonte--principal);
+  text-align: center;
+}
+.contatos__paragrafo {
+  color: var(--cor--texto--padrao);
+  font-family: var(--fonte--paragafos);
+  font-size: var(--tamanho--fonte--paragrafo);
+  text-align: center;
+}
+.contatos__form {
+  padding: 20px;
+  border-radius: 10px;
+  font-family: var(--fonte--paragafos);
+}
+
+.contatos__form label {
+  color: var(--cor--texto--padrao);
+}
+
+.contatos__form label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+  width: 80%;
+}
+
+.contatos__form input,
+.contatos__form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contatos__form input:focus,
+.contatos__form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px var(--background--sessao);
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contatos__form button[type="submit"] {
+  background-color: var(--cor--texto--destaque);
+  color: var(--cor--texto--padrao);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contatos__form button[type="submit"]:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* footer  */
+footer {
+  padding: 1%;
+  text-align: center;
+  font-family: var(--fonte--paragafos);
+  color: rgba(255, 255, 255, 0.226);
 }
