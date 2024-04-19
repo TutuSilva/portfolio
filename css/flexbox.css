@@ -43,9 +43,6 @@ body {
 }
 
 /* sessao skills e hobbies */
-.skillshobbies__container {
-  padding-bottom: 5%;
-}
 .skills__textos,
 .hobbies__subtitulo {
   text-align: center;
@@ -59,7 +56,6 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-top: 5%;
   gap: 33px;
 }
 .skills__logos__item {
@@ -91,9 +87,7 @@ body {
   align-items: center;
   gap: 33px;
 }
-.experiencia__subtitulo {
-  text-align: center;
-}
+
 .experiencia__items {
   display: flex;
   flex-direction: column;
@@ -106,6 +100,9 @@ body {
   gap: 50px;
 }
 /* sessao contatos  */
+.contatos__paragrafo{
+  width: 99%;
+}
 .contatos__form form {
   display: flex;
   flex-direction: column;
@@ -137,17 +134,20 @@ body {
   .apresentacao__container {
     display: flex;
     height: 40vh;
-    padding: 0;
     justify-content: center;
     gap: 5%;
+  }
+  .apresentacao__titulo{
+    width: 60%;
   }
   .apresentacao__textos {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 80%;
   }
-
+  .apresentacao__paragrafo{
+    width: 80%;
+  }
   /*  bolas vermelhas */
   .localizacao__container {
     flex-direction: column;
@@ -162,14 +162,19 @@ body {
   .sobremim__container {
     flex-direction: row;
     height: 40vh;
-    padding: 0;
     justify-content: center;
     gap: 5%;
+  }
+  .sobremim__subtitulo {
+    text-align: start;
   }
   .sobremim__textos {
     display: flex;
     width: 80%;
     flex-direction: column;
+  }
+  .sobremim__paragrafo{
+    width: 80%;
   }
   .sobremim__assinatura {
     text-align: left;
@@ -180,55 +185,53 @@ body {
   .hobbies__container {
     display: flex;
     flex-direction: column;
-    padding: 0 0 0 2%;
-    align-items: center;
-    width: 90%;
+    align-items: flex-start;
+    padding: 0 0 0 10%;
   }
-  .skills__textos,
-  .hobbies__subtitulo {
-  }
+
   .skills__logos__container,
   .hobbies__logos__container {
     flex-wrap: nowrap;
-    padding: 0;
-    margin: 0;
     width: 90%;
   }
   .skills__logos__item {
-    padding: 0;
-    margin: 0;
     height: 20vh;
   }
   /* sessao academica */
   .academica__container {
     display: flex;
-    gap: 5%;
     justify-content: center;
-    padding-bottom: 1%;
+    gap: 60px;
   }
   .academica__textos {
-    width: 80%;
+    width: 78%;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    text-align: start;
   }
   .academica__subtitulo {
     width: 100%;
+    padding-left: 1%;
   }
   .academica__items {
     display: flex;
-    width: 30%;
+    width: 20%;
     height: 30vh;
     justify-content: center;
+    text-align: center;
   }
   .academica__img {
     width: 30%;
   }
   /*Sessao Experiencia*/
+  .experiencia__container {
+  }
+  .experiencia__texto {
+    width: 80%;
+  }
   .experiencia__subtitulo {
-    text-align: center;
-    padding: 0 5% 0 0;
+    text-align: start;
   }
   .experiencia__items {
     flex-direction: row;
@@ -246,10 +249,10 @@ body {
     width: 50%;
   }
   .experiencia__botao {
-    width: 15vw;
+    width: 10vw;
   }
   .experiencia__img {
-    width: 55%;
+    width: 52%;
     border-radius: 2% 0 0 2%;
   }
   .reverse__img {
@@ -264,6 +267,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    width: 100%;
   }
   .contatos__textos {
     width: 100%;

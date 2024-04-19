@@ -13,7 +13,10 @@
 
     <header class="cabecalho__container">
       <nav class="navegacao__items">
-        <a class="navegacao__links" href="https://github.com/TutuSilva" target="_blank"
+        <a
+          class="navegacao__links"
+          href="https://github.com/TutuSilva"
+          target="_blank"
           >Tu<strong class="navegacao__links__destaque">ll</strong>io Silva</a
         >
       </nav>
@@ -27,7 +30,7 @@
         <a class="navegacao__links" href="#hobbies__id">Hobbies</a>
       </nav>
       <nav class="navegacao__items">
-        <a class="navegacao__links" href="#academica__id">Formacão</a>
+        <a class="navegacao__links" href="#academica__id">Formação</a>
       </nav>
       <nav class="navegacao__items">
         <a class="navegacao__links" href="#experiencia__id">Projetos</a>
@@ -45,13 +48,20 @@
           Olá, meu nome é Tullio Silva e sou Front-end Developer
         </h1>
         <p class="apresentacao__paragrafo">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque qui
-          esse officia eveniet hic id labore inventore porro aliquam,
-          necessitatibus natus laboriosam mollitia nulla tempora tenetur unde!
-          Odit, eos maxime? Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Esse excepturi facilis ullam a aliquam. Commodi, praesentium
-          nobis fugiat optio, dignissimos corrupti, iusto nesciunt ipsam
-          accusamus suscipit expedita voluptas ea ut?
+          Como estudante de Desenvolvimento Front-End, estou altamente motivado
+          para aprender e crescer na área de tecnologia. Tenho uma forte
+          compreensão dos fundamentos da web, incluindo HTML, CSS e JavaScript.
+          Estou atualmente aprimorando minhas habilidades em frameworks modernos
+          como React e Vue.js. Tenho uma paixão por resolver problemas e criar
+          interfaces de usuário intuitivas e atraentes. Valorizo a importância
+          do design responsivo e estou sempre buscando maneiras de melhorar a
+          experiência do usuário. Estou ansioso para aplicar o que aprendi em um
+          ambiente profissional e contribuir para o sucesso de uma equipe. Além
+          disso, estou comprometido com o aprendizado contínuo e a adaptação às
+          novas tecnologias e melhores práticas na indústria de desenvolvimento
+          web. A minha dedicação, curiosidade e capacidade de aprender
+          rapidamente me tornam um candidato ideal para qualquer equipe de
+          desenvolvimento web.
         </p>
       </section>
       <div class="localizacao__container">
@@ -75,18 +85,24 @@
       <section class="sobremim__textos">
         <h2 class="sobremim__subtitulo">Sobre mim</h2>
         <p class="sobremim__paragrafo">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-          eaque voluptatibus natus, exercitationem vero fuga cum saepe ipsa
-          unde, consequuntur odit praesentium temporibus aut, amet magnam.
-          Minima officiis at aspernatur. Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Perspiciatis, totam. Dicta eius debitis architecto,
-          vero itaque Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Assumenda aperiam eius culpa doloribus tempore blanditiis, ipsa
-          dolorum? Fuga eveniet, minus natus ea dolorum sit omnis velit numquam
-          quibusdam fugit ipsa. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Officia facilis praesentium, totam quo quisquam,
-          iure natus ratione odio libero, nisi repudiandae cum doloremque odit
-          soluta sit molestias expedita autem. Corporis?
+          Fala, galera! Beleza? Como ja dito, me chamo Tullio, tenho 24 anos e
+          sou lá do interior de Minas. Aquele cantinho do Brasil onde o céu é
+          mais estrelado e o pão de queijo não tem igual. Desde pequeno, eu
+          curto muito tudo que é tech. Não é só passatempo, não, é paixão mesmo.
+          Atualmente, estou mergulhando no universo do desenvolvimento web,
+          aprendendo tudo sobre front-end através dos cursos oferecidos pela
+          Alura e Meta. Acredito que a interface de um site é a porta de entrada
+          para uma experiência digital incrível, e estou dedicado a aprender a
+          criar designs que não só pareçam bons, mas que também proporcionem uma
+          navegação intuitiva e acessível. Recentemente, tive a honra de ser
+          aprovado no prestigiado curso de UI/UX do Google, o que foi um marco
+          significativo na minha jornada de aprendizado. Estou empolgado para
+          aplicar os conhecimentos adquiridos e explorar ainda mais as
+          possibilidades de design e experiência do usuário. Quando não estou
+          codificando ou desenhando, você pode me encontrar explorando novas
+          tecnologias ou participando de fóruns tech. Estou sempre em busca de
+          novos desafios e oportunidades para crescer como desenvolvedor e
+          futuramente, designer.
         </p>
         <p class="sobremim__assinatura">Tullio Silva</p>
       </section>
@@ -170,7 +186,7 @@
 
       <section class="hobbies__container" id="hobbies__id">
         <div class="hobbies__subtitulo">
-          <h2>Hobbies</h2>
+          <h2 class="skills__subtitulo">Hobbies</h2>
         </div>
         <section class="hobbies__logos__container">
           <div class="skills__logos__item">
@@ -286,7 +302,9 @@
     <!-- Sessao experiencia  -->
 
     <section class="experiencia__container" id="experiencia__id">
-      <h2 class="experiencia__subtitulo">Experiencia Profisional</h2>
+      <section class="experiencia__texto">
+        <h2 class="experiencia__subtitulo">Experiencia Profisional</h2>
+      </section>
       <section class="experiencia__items">
         <img
           class="experiencia__img"
@@ -344,13 +362,13 @@
       <div class="contatos__form">
         <form>
           <label for="name">Nome:</label>
-          <input type="text" required="" />
+          <input type="text" required="" maxlength="50"/>
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" required="" />
           <label for="assunto">Assunto: </label>
-          <input type="text" required="" id="assunto" name="assunto" />
+          <input type="text" required="" id="assunto" name="assunto" maxlength="50" />
           <label for="message">Mensagem:</label>
-          <textarea id="message" name="message" required=""></textarea>
+          <textarea id="message" name="message" required="" maxlength="300"></textarea>
           <button type="submit">Enviar</button>
         </form>
       </div>
