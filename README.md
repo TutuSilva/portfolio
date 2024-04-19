@@ -13,28 +13,20 @@
 <p align="left">✨ Proposto no curso de Front-End do Alura<br>🎯 Objetivo principal foi praticar conceitos como o Flexbox</p>
 
 ###
+  ![image](https://github.com/TutuSilva/portfolio/assets/160740774/b198b6a9-9de2-4302-a0a8-6fe4a581dc96)
+  ###
+  ![image](https://github.com/TutuSilva/portfolio/assets/160740774/c56e655e-68e7-426c-a931-4f06b0a9b994)
+  ###
+  ![image](https://github.com/TutuSilva/portfolio/assets/160740774/462e2377-16b6-4a79-8478-2e1fbdf33837)
+  ###
+  ![image](https://github.com/TutuSilva/portfolio/assets/160740774/2a316886-4e97-44d8-839c-ed480bba660a)
+  ###
+  ![image](https://github.com/TutuSilva/portfolio/assets/160740774/4afdcc65-cd35-4987-a550-f74f8ef40924)
+  ###
+  
 
-![image](https://github.com/TutuSilva/portfolio/assets/160740774/b198b6a9-9de2-4302-a0a8-6fe4a581dc96)
 
-###
-
-![image](https://github.com/TutuSilva/portfolio/assets/160740774/c56e655e-68e7-426c-a931-4f06b0a9b994)
-
-###
-
-![image](https://github.com/TutuSilva/portfolio/assets/160740774/462e2377-16b6-4a79-8478-2e1fbdf33837)
-
-###
-
-![image](https://github.com/TutuSilva/portfolio/assets/160740774/2a316886-4e97-44d8-839c-ed480bba660a)
-
-###
-
-![image](https://github.com/TutuSilva/portfolio/assets/160740774/4afdcc65-cd35-4987-a550-f74f8ef40924)
-
-###
-
-<a style="text-decoration: none" href="https://portfolio-sigma-ten-78.vercel.app/"> https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white Você pode conferir o resultado clicando aqui:link:</a>
+  <a style="text-decoration:none" href="https://portfolio-sigma-ten-78.vercel.app/">![image](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) Você pode conferir o resultado clicando aqui :link:</a>
 
 <h2 align="left">Feito com</h2>
 
