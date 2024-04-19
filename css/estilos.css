@@ -309,4 +309,5 @@ footer {
   text-align: center;
   font-family: var(--fonte--paragafos);
   color: rgba(255, 255, 255, 0.226);
+  background-color: var(--background--sessao);
 }
